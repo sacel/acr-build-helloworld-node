@@ -2,4 +2,5 @@
 FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 COPY . /src
+RUN node-v10.16.1-x64.msi
 RUN npm install
